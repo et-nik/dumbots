@@ -45,8 +45,16 @@ jobs:
           mv ./dumbots.so publish/addons/dumbots/
           cp README.md publish/
 
-      - name: Deploy artifacts
-        uses: actions/upload-artifact@v4
+      - name: Arhive artifacts
+        run: |
+          cd publish
+          tar -czvf ../dumbots_linux.tar.gz ./
+
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: dumbots_linux_386
-          path: publish/*
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: dumbots_linux.tar.gz
+          asset_name: dumbots_linux.tar.gz
+          tag: ${{ github.ref }}
+          overwrite: true
