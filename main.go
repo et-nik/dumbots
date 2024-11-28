@@ -10,8 +10,8 @@ func init() {
 	err := metamod.SetPluginInfo(&metamod.PluginInfo{
 		InterfaceVersion: metamod.MetaInterfaceVersion,
 		Name:             "DumBots",
-		Version:          "0.9.0",
-		Date:             "2024-11-28",
+		Version:          Version,
+		Date:             BuildDate,
 		Author:           "KNiK",
 		Url:              "https://github.com/et-nik/dumbots",
 		LogTag:           "DumBots",

@@ -24,3 +24,13 @@ Bots written with [Metamod-Go](https://github.com/et-nik/metamod-go) library.
 ## CVars
 
 * `dbt_max_bots` — maximum number of bots
+
+
+## Installation
+
+1. Download the latest release from the https://github.com/et-nik/dumbots/releases
+2. Unpack the archive to the `addons` folder of your Half-Life server
+3. Add `dumbots` to the `metamod/plugins.ini` file:
+```
+linux addons/dumbots/dumbots.so
+```
