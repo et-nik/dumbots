@@ -1,0 +1,6 @@
+github.com/chewxy/math32 v1.11.1 h1:b7PGHlp8KjylDoU8RrcEsRuGZhJuz8haxnKfuMMRqy8=
+github.com/chewxy/math32 v1.11.1/go.mod h1:dOB2rcuFrCn6UHrze36WSLVPKtzPMRAQvBvUwkSsLqs=
+github.com/et-nik/metamod-go v0.3.0 h1:bU4fjiK0/PoTgw2TlHd0fYsMVRw4b5u5gIIWiUhUdVE=
+github.com/et-nik/metamod-go v0.3.0/go.mod h1:Kv7gnf+8NbPsTHTVSQoHVhgki0wQRNbpDbZeQ1u58PU=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
